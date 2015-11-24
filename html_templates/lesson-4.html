@@ -135,7 +135,7 @@
 
 		<h2 id = "lesson6">Lesson 4.6: Input Validation </h2>
 	    <div class = "concept-description">
-	    <p> Validation means verifying on the server side that what we receive is what we expected to receive. 
+	    <p> <b>Validation means verifying on the server side that what we receive is what we expected to receive. </b>
 	    	<br>
 	    	<ul>
 	    	<li> Input Validation: </li>
@@ -162,6 +162,28 @@
 	    		</ul>
 
 	    	</ul>
+	    	<b>Validation is important for both site security and user experience. </b>
+	    	<ul>
+	    		<li>Site Security: It is important to not leave your website open to attack. Handling HTML escaping is critical to this because failing to do so allows users to modify your website! </li>
+	    		<li>User Experience: The user might not be able to understand why the server is not accepting their POST request, or the server might allow the user to enter false data. </li>
+	    		<li> Possible Consequences of Failing to Validate User Input: 
+	    			<ul>
+	    				<li> Website vulnerable to hackers and other malcontents. </li>
+	    				<li> Poor user experience. </li>
+	    			</ul>
+
+
+	    		</li>
+
+	    	</ul>
+	    	<b> Servers handle requests and deliver responses by: </b>
+	    	<ol>
+	    		<li> The user makes a GET request for the form. </li>
+	    		<li> Server responds with form data. </li>
+	    		<li> The user then makes a POST request to the server with the data.</li>
+	    		<li> The server will then validate the request and either accept the data or not. If there is an error, and the server does not validate the request, the server will send a form request back to the user with an error message. The user can then send another POST request back to the server. </li>
+
+	    	</ol>
 	    </p>
 	    </div>
 
@@ -170,7 +192,7 @@
 		<h2 id = "lesson7">Lesson 4.7: HTML Templates </h2>
 	    <div class = "concept-description">
 	    <p> 
-	    	Templates generally refer to a library. A template library is a library to build complicated strings, typically HTML.
+	    	<b> Templates generally refer to a library. A template library is a library to build complicated strings, typically HTML. </b>
 
 	    	<ul> 
 	    		<li> Variable Substitution: &#123;{ variable }}  </li>
@@ -199,6 +221,11 @@
 					</ul>
 
 	    	</ul>
+	    	<b> The Importance of Avoiding Repetition: </b>
+	    		<li> Makes your code less prone to errors. </li>
+	    		<li> Easier to fix and modify code. </li>
+	    		<li> Code is consistent so changes are applied universally. </li>
+	    		<li> Using HTML templates when creating a website is an important tool to use in order to avoid repetition. </li>
 	    </p>
 	    </div>
 

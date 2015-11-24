@@ -3,7 +3,6 @@
 # Stage 4 Project
 
 import webapp2
-import cgi
 from handlers import *
 
 application = webapp2.WSGIApplication([
